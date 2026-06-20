@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "60VU7IdW5CRBeKSDnr5SHyesPpECJFXSEdw33BzCkCEpQNAnidpBTo1T/wbsQgRUcVY2VmKPF4c9HQFHun2Hkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Calendarautomator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shuva\\.nuget\\packages\\google.api.commonprotos\\2.13.0\\google.api.commonprotos.2.13.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.api.gax\\4.5.0\\google.api.gax.4.5.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.api.gax.grpc\\4.5.0\\google.api.gax.grpc.4.5.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.apis\\1.66.0\\google.apis.1.66.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.apis.auth\\1.66.0\\google.apis.auth.1.66.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.apis.core\\1.66.0\\google.apis.core.1.66.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.cloud.aiplatform.v1\\2.24.0\\google.cloud.aiplatform.v1.2.24.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.cloud.iam.v1\\3.0.0\\google.cloud.iam.v1.3.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.cloud.location\\2.0.0\\google.cloud.location.2.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.longrunning\\3.0.0\\google.longrunning.3.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\google.protobuf\\3.25.0\\google.protobuf.3.25.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\grpc.auth\\2.60.0\\grpc.auth.2.60.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\grpc.core.api\\2.60.0\\grpc.core.api.2.60.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\grpc.net.client\\2.60.0\\grpc.net.client.2.60.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\grpc.net.common\\2.60.0\\grpc.net.common.2.60.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\shuva\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

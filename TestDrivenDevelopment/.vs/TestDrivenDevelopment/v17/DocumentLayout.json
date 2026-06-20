@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shuva\\source\\repos\\TestDrivenDevelopment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B7FE91-49BA-447E-9E1B-CF0B3EC70A8D}|TestDrivenDevelopment_Test\\TestDrivenDevelopment_Test.csproj|c:\\users\\shuva\\source\\repos\\testdrivendevelopment\\testdrivendevelopment_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B7FE91-49BA-447E-9E1B-CF0B3EC70A8D}|TestDrivenDevelopment_Test\\TestDrivenDevelopment_Test.csproj|solutionrelative:testdrivendevelopment_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97F62824-32CE-434C-8109-C1AAC0EAE09C}|TestDrivenDevelopment\\TestDrivenDevelopment.csproj|c:\\users\\shuva\\source\\repos\\testdrivendevelopment\\testdrivendevelopment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F62824-32CE-434C-8109-C1AAC0EAE09C}|TestDrivenDevelopment\\TestDrivenDevelopment.csproj|solutionrelative:testdrivendevelopment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\TestDrivenDevelopment\\TestDrivenDevelopment_Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestDrivenDevelopment_Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\TestDrivenDevelopment\\TestDrivenDevelopment_Test\\UnitTest1.cs",
+              "RelativeToolTip": "TestDrivenDevelopment_Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:37:11.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\TestDrivenDevelopment\\TestDrivenDevelopment\\Program.cs",
+              "RelativeDocumentMoniker": "TestDrivenDevelopment\\Program.cs",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\TestDrivenDevelopment\\TestDrivenDevelopment\\Program.cs",
+              "RelativeToolTip": "TestDrivenDevelopment\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:34:46.499Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

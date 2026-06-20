@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|c:\\users\\shuva\\source\\repos\\calendarautomator\\calendarautomator\\calendarautomator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{296D800F-406D-4C2B-9CB5-7B68AED0A755}|Calendarautomator\\Calendarautomator.csproj|solutionrelative:calendarautomator\\calendarautomator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Program.cs",
+              "RelativeDocumentMoniker": "Calendarautomator\\Program.cs",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Program.cs*",
+              "RelativeToolTip": "Calendarautomator\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T00:40:22.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Calendarautomator\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Index.cshtml.cs*",
+              "RelativeToolTip": "Calendarautomator\\Pages\\Index.cshtml.cs*",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T00:08:11.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Calendarautomator\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Calendarautomator\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T00:07:02.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Calendarautomator\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Calendarautomator\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T00:05:24.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Calendarautomator\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Calendarautomator\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T00:05:23.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Calendarautomator\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Calendarautomator\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T00:05:13.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Calendarautomator\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Calendarautomator\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-12T00:04:45.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Calendarautomator",
+              "DocumentMoniker": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Calendarautomator.csproj",
+              "RelativeDocumentMoniker": "Calendarautomator\\Calendarautomator.csproj",
+              "ToolTip": "C:\\Users\\shuva\\source\\repos\\Calendarautomator\\Calendarautomator\\Calendarautomator.csproj",
+              "RelativeToolTip": "Calendarautomator\\Calendarautomator.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-12T00:04:39.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\bin\Debug\net8.0\Monte Carlo Pi-Berechnung.exe
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\bin\Debug\net8.0\Monte Carlo Pi-Berechnung.deps.json
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\bin\Debug\net8.0\Monte Carlo Pi-Berechnung.runtimeconfig.json
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\bin\Debug\net8.0\Monte Carlo Pi-Berechnung.dll
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\bin\Debug\net8.0\Monte Carlo Pi-Berechnung.pdb
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.AssemblyInfoInputs.cache
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.AssemblyInfo.cs
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.csproj.CoreCompileInputs.cache
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.dll
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\refint\Monte Carlo Pi-Berechnung.dll
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.pdb
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\Monte Carlo Pi-Berechnung.genruntimeconfig.cache
+C:\Users\shuva\source\repos\Monte Carlo Pi-Berechnung\Monte Carlo Pi-Berechnung\obj\Debug\net8.0\ref\Monte Carlo Pi-Berechnung.dll

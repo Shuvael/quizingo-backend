@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shuva\\source\\repos\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shuva\\source\\repos\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shuva\\source\\repos\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung.csproj",
+        "projectName": "Monte Carlo Pi-Berechnung",
+        "projectPath": "C:\\Users\\shuva\\source\\repos\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung.csproj",
+        "packagesPath": "C:\\Users\\shuva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shuva\\source\\repos\\Monte Carlo Pi-Berechnung\\Monte Carlo Pi-Berechnung\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shuva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
