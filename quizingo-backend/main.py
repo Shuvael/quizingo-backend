@@ -274,6 +274,17 @@ async def sende_ranking_update(raum_code: str):
         "ranking": ranking,
     })
 
+async def lade_fragen_mit_retry(anzahl: int = 20, versuche: int = 3) -> list:
+    for versuch in range(versuche):
+        try:
+            fragen = await lade_fragen_von_api(anzahl)
+            if fragen:
+                return fragen
+        except Exception:
+            pass
+        await asyncio.sleep(2 ** versuch)  # 1s, 2s, 4s
+    return []
+
 async def naechste_frage_senden(raum_code: str):
     raum = raeume.get(raum_code)
     if not raum:
@@ -291,14 +302,25 @@ async def naechste_frage_senden(raum_code: str):
 
     raum["antworten_diese_runde"] = set()
     raum["richtige_antworten_diese_runde"] = 0
-    raum["bingo_warnung_gezeigt"] = set()  # zurücksetzen
+    raum["bingo_warnung_gezeigt"] = set()
     raum["frage_start_zeit"] = time.time()
     raum["frage_index"] += 1
 
-    # Neue Fragen nachladen wenn nur noch 5 übrig
-    if raum["frage_index"] >= len(raum["fragen"]) - 5:
-        neue_fragen = await lade_fragen_von_api(20)
-        raum["fragen"].extend(neue_fragen)
+    # Nachladen wenn weniger als 5 Fragen übrig
+    fragen_uebrig = len(raum["fragen"]) - raum["frage_index"]
+    if fragen_uebrig < 5:
+        await broadcast(raum_code, {
+            "typ": "system_nachricht",
+            "text": "Neue Fragen werden geladen...",
+        })
+        neue_fragen = await lade_fragen_mit_retry(20)
+        if neue_fragen:
+            raum["fragen"].extend(neue_fragen)
+        else:
+            # Fallback: bestehende Fragen mischen und wiederholen
+            vorherige = raum["fragen"][:raum["frage_index"]]
+            random.shuffle(vorherige)
+            raum["fragen"].extend(vorherige)
 
     frage = raum["fragen"][raum["frage_index"]]
     await broadcast(raum_code, {
@@ -380,6 +402,8 @@ async def websocket_endpunkt(websocket: WebSocket, raum_code: str, spieler_id: s
         "schutzschild_aktiv": False,
         "dreifachpunkte_aktiv": False,
         "joker_aktiv": False,
+        "joker_richtig_index": None,
+        "joker_antworten": None,
         "websocket": websocket,
     }
 
@@ -440,7 +464,12 @@ async def websocket_endpunkt(websocket: WebSocket, raum_code: str, spieler_id: s
                 richtig = nachricht["antwort_index"] == frage["richtig"]
 
                 if spieler["joker_aktiv"]:
+                    richtig = nachricht["antwort_index"] == spieler["joker_richtig_index"]
                     spieler["joker_aktiv"] = False
+                    spieler["joker_richtig_index"] = None
+                    spieler["joker_antworten"] = None
+                else:
+                    richtig = nachricht["antwort_index"] == frage["richtig"]
 
                 if richtig:
                     raum["richtige_antworten_diese_runde"] += 1
@@ -554,6 +583,32 @@ async def websocket_endpunkt(websocket: WebSocket, raum_code: str, spieler_id: s
                 elif quirk_id == "dreifachpunkte":
                     spieler["dreifachpunkte_aktiv"] = True
                     await sende_an_spieler(raum_code, spieler_id, {"typ": "dreifachpunkte_aktiv"})
+
+                elif quirk_id == "joker":
+                    if spieler_id not in raum["antworten_diese_runde"]:
+                        frage = raum["fragen"][raum["frage_index"]]
+                        richtig_antwort = frage["antworten"][frage["richtig"]]
+                        falsche = [a for a in frage["antworten"] if a != richtig_antwort]
+                        zwei_optionen = [richtig_antwort, random.choice(falsche)]
+                        random.shuffle(zwei_optionen)
+                        richtig_in_joker = zwei_optionen.index(richtig_antwort)
+                        
+                        # Joker-Mapping speichern damit Antwort korrekt gewertet wird
+                        spieler["joker_aktiv"] = True
+                        spieler["joker_richtig_index"] = richtig_in_joker
+                        spieler["joker_antworten"] = zwei_optionen
+
+                        await sende_an_spieler(raum_code, spieler_id, {
+                            "typ": "joker_aktiv",
+                            "antworten": zwei_optionen,
+                            "richtig": richtig_in_joker,
+                        })
+                    else:
+                        await sende_an_spieler(raum_code, spieler_id, {
+                            "typ": "quirk_fehler",
+                            "nachricht": "Du hast diese Frage bereits beantwortet"
+                        })
+                    continue
 
                 await sende_an_spieler(raum_code, spieler_id, {
                     "typ": "quirk_verwendet",
