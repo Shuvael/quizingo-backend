@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://quizingo.vercel.app/",  # deine echte Vercel-URL eintragen
+        "https://quizingo.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
